@@ -1,1 +1,173 @@
-/* место для вашего кода */
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* если добавить align-items: center;, то лого становится большим */
+    height: 105px;
+    width: 1052px;
+    margin: 92px 24px 96px;
+}
+
+
+
+.header__links-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+
+.header__logo {
+    display: block;
+    height: 105px;
+    width: 148px;
+}
+
+.header_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+}
+
+
+.cover {
+    display: flex;
+    height: 757px;
+    margin-bottom: 179px;
+    background-image: url("../images/lotus-flower.png");
+    position: relative;
+}
+
+.overlay {
+    height: 757px;
+    width: 1100px;
+    background-color: rgb(0 0 0 / 0.6);
+    position: absolute;
+    
+}
+
+.cover_title {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1000px;
+    height: 355px;
+    top: 165px;
+    left: 50px;
+    gap: 0px;
+    color: white;
+    font-weight: bold;
+    line-height: 115%;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    
+}
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0em;
+}
+
+.aligned-text {
+    align-self: start;
+    width: 316px;
+    height: 115px;
+    top: 165px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+ 
+}
+.aligned-text_center {
+    align-self: center;
+    align-items: center;
+    width: 369px;
+    height: 100px;
+    top: 300px;
+    left: 336px;
+    gap: 0px;
+    
+}
+
+.aligned-text_right {
+    align-self: flex-end;
+    align-items: flex-end;
+    width: 417px;
+    height: 100px;
+    top: 420px;
+    left: 633px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.cover__description {
+    position: absolute;
+}
+
+.cover_description-text {
+   
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+
+.bet-button {
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    text-align: center;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 180px 50px 88px;
+}
+
+.footer_contacts {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+   
+}
+
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+.footer__social-list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+.footer__social-list-item {
+    height: 48px;
+    width: 48px;
+}

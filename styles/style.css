@@ -213,7 +213,7 @@ address {
 .lots__card-list-item {
     width: 334px;
     height: 563px;
-    
+
 /*top: 74px;
 gap: 0px;
 opacity: 0px;*/
@@ -237,14 +237,23 @@ opacity: 0px;*/
 .card_type_film {
     position: relative;
     background-image: url(../images/card-lot-01.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 .card_type_book {
     position: relative;
     background-image: url(../images/card-lot-02.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 .card_type_picture {
     position: relative;
     background-image: url(../images/card-lot-03.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 
 .overlay__card {
@@ -275,10 +284,13 @@ opacity: 0px;*/
 
 
 .lots__look-more-link {
+    padding-top: 30px;
+    padding-left: 40px;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.48px;
     text-align: left;
+    text-underline-offset: 5px;
 }
 
 

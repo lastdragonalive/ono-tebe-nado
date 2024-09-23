@@ -54,35 +54,46 @@ address {
 
 .cover {
     display: flex;
+    flex-direction: column;
     height: 757px;
     margin-bottom: 179px;
     background-image: url("../images/lotus-flower.png");
     position: relative;
+    padding-top: 165px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 .overlay {
     height: 757px;
     width: 1100px;
+    /*padding-top: 165px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;*/
     background-color: rgb(0 0 0 / 0.6);
     position: absolute;
+    inset: 0;
     
 }
 
 .cover_title {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    justify-content: space-between;
-    width: 1000px;
+    /*justify-content: space-between;*/
+    /*width: 1000px;
     height: 355px;
     top: 165px;
-    left: 50px;
+    left: 50px;*/
     color: white;
     font-weight: bold;
-    line-height: 115%;
+    /*line-height: 115%*/
     font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 0.3em;
+    gap: 20px;
+    z-index: 2;
 }
 
 .letter-spacing-extended {
@@ -96,37 +107,43 @@ address {
 .aligned-text {
     display: flex;
     align-self: start;
-    width: 316px;
+    line-height: 115px;
+    /*width: 316px;
     height: 115px;
     top: 165px;
-    left: 50px;
+    left: 50px;*/
 }
 
 .aligned-text_center {
     display: flex;
     align-self: center;
     align-items: center;
-    top: 300px;
-    left: 336px;
-    right: 395px;
-    width: 369px;
-    height: 100px;
+    line-height: 100px;
+    /*top: 300px;*/
+    /*padding-left: 336px;*/
+    /*margin-right: 395px;*/
+    /*width: 369px;*/
+    /*height: 100px;*/
 }
 
 .aligned-text_right {
     display: flex;
     align-self: flex-end;
-    align-items: flex-end;
-    width: 417px;
-    height: 100px;
-    top: 420px;
-    left: 633px;
+    line-height: 100px;
+    /*align-items: flex-end;*/
+    /*width: 417px;*/
+    /*height: 100px;*/
+    /*top: 420px;
+    left: 633px;*/
 }
 
 .cover__description {
-    position: absolute;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    z-index: 2;
+    margin-top: 135px;
+    align-items: center; 
+    justify-content: space-between;
 }
 
 .cover_description-text {
@@ -136,9 +153,8 @@ address {
     line-height: 28px;
     text-transform: uppercase;
     color: white;
-    height: 28px;
-    margin-top: 667px;
-    margin-left: 78px;   
+    line-height: 28px;
+    padding-left: 26px;
 }
 
 .cover_description-text-letter-spacing {
@@ -158,8 +174,6 @@ address {
     text-align: center;
     width: 256px;
     height: 51px;
-    margin-top: 655px;
-    margin-left: 79px;
     border: solid 1px white;
 }
 
@@ -320,12 +334,19 @@ address {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    letter-spacing: 0.01em;
 }
 
 .about__text-gap {
     letter-spacing: 0.01em;
     margin-bottom: 25px;
+}
+
+.about_text-letter-spacing-extended {
+    letter-spacing: 0,04em;
+}
+
+.about_text-letter-spacing-small {
+    letter-spacing: 0.01em;
 }
 
 .footer {

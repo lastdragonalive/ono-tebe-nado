@@ -59,10 +59,7 @@ address {
     margin-bottom: 179px;
     background-image: url("../images/lotus-flower.png");
     position: relative;
-    padding-top: 165px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding: 165px 50px 50px;
 }
 
 .overlay {
@@ -90,12 +87,12 @@ address {
 }
 
 .no-letter-spacing {
-    letter-spacing: 0em;
+    letter-spacing: 0;
 }
 
 .aligned-text {
     display: flex;
-    align-self: start;
+    align-self: flex-start;
     line-height: 115px;
 }
 
@@ -128,7 +125,6 @@ address {
     line-height: 28px;
     text-transform: uppercase;
     color: white;
-    line-height: 28px;
     padding-left: 26px;
 }
 
@@ -136,8 +132,11 @@ address {
     letter-spacing: 1.1em;
 }
 
-.bet-button {
+button {
     border: none;
+}
+
+.bet-button {
     outline: none;
     display: inline-block;
     background-color: transparent;
@@ -189,10 +188,7 @@ address {
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 51px;
-    padding-bottom: 48px;
+    padding: 51px 40px 48px;
 }
 
 .card_type_film {
@@ -262,10 +258,7 @@ address {
 
 .about {
     width: 1052px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 146px;
-    margin-bottom: 180px;
+    margin: 146px 24px 180px 24px;
     display: grid;
     grid-template-columns: 334px 1fr;
 }
@@ -327,7 +320,7 @@ address {
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
     margin: 180px 50px 88px;
 }
 

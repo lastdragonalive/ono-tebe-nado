@@ -64,13 +64,13 @@ address {
 .cover_title {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    z-index: 2;
     color: white;
     font-weight: bold;
     font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    gap: 20px;
-    z-index: 2;
 }
 
 .letter-spacing-extended {

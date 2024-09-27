@@ -157,6 +157,7 @@ address {
     flex-wrap: wrap;
     list-style: none;
     padding-top: 27px;
+    gap: 15px;
 }
 
 .lots__card-list-item {
@@ -264,6 +265,10 @@ address {
 }
 
 .about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 693px;
     padding-left: 23px;
     font-size: 20px;
     font-weight: 400;
